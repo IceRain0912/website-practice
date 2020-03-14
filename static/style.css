@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("/static/NotoSansTC-Thin.otf");
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: darkred;
+}
+
+h5 {
+      font-family: "CustomFont";
+
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #d4cccb;
+}
