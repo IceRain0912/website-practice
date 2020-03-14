@@ -20,7 +20,3 @@ def gamer(c):
     f.close()
     contents.append((name,gamer,i))
   return render_template("gamer.html", cs=contents)
-
-server.run(debug=True,
-          host = "0.0.0.0",
-          port = "3000")
